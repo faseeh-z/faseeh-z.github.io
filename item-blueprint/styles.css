@@ -1,0 +1,152 @@
+/* Color palette from https://coolors.co/palette/386641-6a994e-a7c957-f2e8cf-bc4749 */
+:root {
+    --body: white;
+    --primary-text: black;
+    --secondary-text: rgb(82, 82, 82);
+    --primary: #6A994E;
+    --on-primary: white;
+    --primary-on-hover: #386641;
+    --secondary: #A7C957;
+    --error: #BC4749;
+}
+
+body {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 16px;
+    background-color: white;
+    color: var(--primary-text);
+}
+
+h1, h2, h3, p, ol, ul {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: darkblue;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.title-and-back {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-btn {
+    background-color: var(--error);
+    color: var(--on-primary);
+    border: none;
+    border-radius: 999px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.1s;
+}
+
+.home-btn:hover {
+    background-color: var(--primary-on-hover);
+}
+
+.download-btns-div {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    justify-content: end;
+    gap: 6px;
+    padding: 10px;
+}
+
+.download-button {
+    background-color: var(--primary);
+    color: var(--on-primary);
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 999px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.1s;
+}
+
+.download-button:hover {
+    background-color: var(--primary-on-hover);
+}
+
+.modal {
+    display: none;
+    position: fixed; /* Stays in place relative to the viewport */
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+}
+
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centers the modal perfectly */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.close {
+    color: #aaa;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+  }
+
+.ok-button {
+    background-color: var(--primary);
+    color: var(--on-primary);
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    border: none;
+    border-radius: 999px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.1s;
+}
+
+.ok-button:hover {
+    background-color: var(--primary-on-hover);
+}
+
+.warning {
+    color: var(--error);
+}
+
+video {
+    width: 100%;
+    height: auto;
+    image-rendering: pixelated;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    image-rendering: pixelated;
+}

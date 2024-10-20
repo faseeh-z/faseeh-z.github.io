@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="title-and-back">  
+        <h1>Name of the Software</h1>
+        <a href="https://coderapids.github.io/"><button class="home-btn">Back to Homepage</button></a>
+    </div>
+    <p>Description</p>
+    <video autoplay muted loop>
+        <source src="path/to/video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <!-- <img src="path/to/image/file"> -->
+    <h2>What's in the Latest Update</h2>
+    <p>The latest version has the following bug fixes and improvements.</p>
+    <h3>Bug Fixes</h3>
+    <ol>
+        <li>A bug fix.</li>
+        <li>Another bug fix.</li>
+    </ol>
+    <h3>Improvements</h3>
+    <ol>
+        <li>An improvement.</li>
+        <li>Another improvement.</li>
+    </ol>
+
+    <h2>Download for Windows</h2>
+    <div class="download-btns-div">
+        <button class="download-button" data-download-url="v1/dot_dash.zip">Download Bundled Application (For Faster Startup)</button>
+        <button class="download-button" data-download-url="v1/dot_dash_onefile.zip">Download the Application as a Single EXE (More Portable)</button>
+    </div>
+
+    <!-- Modal Box -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+        <span id="closeModal" class="close">&times;</span>
+        <p>You are granted a personal, non-exclusive, non-transferable, and non-commercial license to use this software. This software is licensed, not sold. <a href="license.html" target="_blank">See more</a></p>
+        <p>Please do not redistribute this software. Instead, share the link provided below.</p>
+        <a href="https://path/to/this/website/">https://path/to/this/website/</a>
+        <button id="okBtn" class="ok-button">Agree and Download</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
