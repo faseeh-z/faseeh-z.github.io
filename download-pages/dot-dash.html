@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Item</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            max-width: 1000px;
+        }
+
+        .item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            width: 100%;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 10px;
+        }
+
+        .item:last-child {
+            border-bottom: none; /* Remove horizontal line for the last item */
+        }
+
+        .item-name {
+            flex: 1;
+            text-align: left;
+            padding-left: 10px;
+            font-size: 18px;
+        }
+
+        .download-button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            text-align: center;
+            border-radius: 999px;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        .download-button:hover {
+            background-color: #45a049;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Download Item</h1>
+        <p>Choose your platform to download:</p>
+
+        <div class="item">
+            <div class="item-name">Windows</div>
+            <a href="https://example.com/windows-download" class="download-button">Download</a>
+        </div>
+
+        <div class="item">
+            <div class="item-name">Mac</div>
+            <a href="https://example.com/mac-download" class="download-button">Download</a>
+        </div>
+
+        <div class="item">
+            <div class="item-name">Linux</div>
+            <a href="https://example.com/linux-download" class="download-button">Download</a>
+        </div>
+
+        <div class="item">
+            <div class="item-name">Android</div>
+            <a href="https://example.com/android-download" class="download-button">Download</a>
+        </div>
+
+        <div class="item">
+            <div class="item-name">iOS</div>
+            <a href="https://example.com/ios-download" class="download-button">Download</a>
+        </div>
+    </div>
+</body>
+</html>
