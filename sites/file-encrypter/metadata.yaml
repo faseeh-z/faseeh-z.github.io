@@ -1,0 +1,9 @@
+title: Download File Encrytper - A simple app to encrypt your files # Title of the generated site.
+filename: file-encrypter # Name of the generated HTML file.
+
+download_links:
+  - [v2.0 for Windows (Bundled Application), https://faseeh-official.github.io/file-encrypter-dist/v2.0/file_encrypter.zip]
+  - [v2.0 for Windows (Standalone EXE), https://faseeh-official.github.io/file-encrypter-dist/v2.0/file_encrypter_standalone.zip]
+  - [v1.0 for Windows (Bundled Application), https://faseeh-official.github.io/file-encrypter-dist/v1.0/file_encrypter.zip]
+  - [v1.0 for Windows (Standalone EXE), https://faseeh-official.github.io/file-encrypter-dist/v1.0/file_encrypter_standalone.zip]
+  - [v1.0 for Linux (Debian), https://faseeh-official.github.io/file-encrypter-dist/v1.0/file_encrypter_deb.zip]
