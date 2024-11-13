@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="48"
+   height="48"
+   viewBox="0 0 12.7 12.7"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="icon.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="11.702245"
+     inkscape:cx="25.507927"
+     inkscape:cy="25.593381"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer2" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:none">
+    <ellipse
+       style="fill:#ff0000;stroke-width:0.264583"
+       id="path1"
+       cx="6.3759136"
+       cy="6.228951"
+       rx="4.9515076"
+       ry="4.9628124" />
+    <ellipse
+       style="fill:#ff0000;stroke-width:0.264583"
+       id="path2"
+       cx="16.753731"
+       cy="6.3080845"
+       rx="0.022609621"
+       ry="0.045219243" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke-width:0.264583"
+       d="M 6.7376675,5.0871651 6.7828865,9.880405 8.0716352,9.2699451 8.7273142,10.671742 10.016063,10.083892 9.337774,8.7499237 10.558694,8.1620736 Z"
+       id="path3" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 2">
+    <path
+       id="path1-7"
+       style="fill:#ff0000;stroke-width:0.32184"
+       d="M 6.3618939,0.27150048 A 6.0230326,6.0367838 0 0 0 0.33933413,6.3078894 6.0230326,6.0367838 0 0 0 6.3618939,12.344907 6.0230326,6.0367838 0 0 0 9.2138252,11.608194 L 8.4525979,9.9795074 6.8848841,10.722506 6.8295679,4.891667 11.477392,8.6318017 9.9926532,9.3471418 10.61119,10.564729 A 6.0230326,6.0367838 0 0 0 12.385083,6.3078894 6.0230326,6.0367838 0 0 0 6.3618939,0.27150048 Z" />
+  </g>
+</svg>

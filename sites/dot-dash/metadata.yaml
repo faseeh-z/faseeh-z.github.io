@@ -1,0 +1,6 @@
+title: Download Dot Dash - A simple game to test your mouse controlling skills # Title of the generated site.
+filename: dot-dash # Name of the generated HTML file.
+
+download_links:
+  - [Bundled Application, https://faseeh-official.github.io/dot-dash-dist/v1.0/dot_dash.zip]
+  - [Standalone EXE, https://faseeh-official.github.io/dot-dash-dist/v1.0/dot_dash_onefile.zip]

@@ -181,7 +181,10 @@ img {
   border-radius: 8px;
 }
 
-.link-box h4, ul, li, a {
+.link-box h4,
+.link-box ul,
+.link-box li,
+.link-box a {
   color: #ffffffdc;
 }
 

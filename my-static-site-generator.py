@@ -9,7 +9,15 @@ def add_tabs(content, number_of_tabs_to_add):
     tabs = '\t' * number_of_tabs_to_add
     return '\n'.join([tabs + line for line in content.splitlines()])
 
+# Create export_sites_to folder if it doesn't exist.
+os.makedirs(export_sites_to, exist_ok=True)
 
+# Clear export_sites_to folder.
+print(f"Clearing {export_sites_to} folder")
+for filename in os.listdir(export_sites_to):
+    file_path = os.path.join(export_sites_to, filename)
+    if os.path.isfile(file_path):
+        os.remove(file_path)
 
 print("Scanning 'sites' dir")
 for dir_name in os.listdir(sites_dir): # Loop through all sites folders.
@@ -20,8 +28,8 @@ for dir_name in os.listdir(sites_dir): # Loop through all sites folders.
         data = yaml.safe_load(rawdata)
 
     print(f"Creating html file for {dir_name}") # Creating html file
-    os.makedirs(export_sites_to, exist_ok=True)  # To create 'downloads' folder if it doesn't exist.
-    with open(os.path.join(export_sites_to, dir_name + ".html"), "w") as htmlfile:
+    
+    with open(os.path.join(export_sites_to, data["filename"] + ".html"), "w") as htmlfile:
         htmlfile.write(
             f"""
 <!DOCTYPE html>
