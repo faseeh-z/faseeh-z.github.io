@@ -9,12 +9,11 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: #111111c6;
+  color: #111111;
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
-  font-size: 16px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
@@ -37,6 +36,10 @@ img {
 ::selection {
   background-color: #695aa6;
   color: #ffffff;
+}
+
+.alert {
+  color: red;
 }
 
 .sticky-header {
