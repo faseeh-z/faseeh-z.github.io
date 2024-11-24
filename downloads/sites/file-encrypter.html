@@ -5,8 +5,9 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="../default-assets/styles.css">
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-	<title>Download Dot Dash - A simple game to test your mouse controlling skills</title>
+	<link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+	<title>Download File Encrytper - A simple app to encrypt your files</title>
 </head>
 <body>
     <header class="sticky-header">
@@ -16,34 +17,47 @@
         </a>
     </header>
 	<div class="container">
-		<h1>Dot Dash</h1>
-		<p>This game tests your mouse control skills by challenging you to click on randomly appearing dots as quickly as possible. Once you've clicked all the dots, it calculates and displays your average reaction time.</p>
-		<video autoplay muted loop>
-		    <source src="../assets/videos/dot-dash-preview.mp4" type="video/mp4">
-		    Your browser does not support the video tag.
-		</video>
+		<h1>File Encrypter</h1>
+		<p>This is a simple Python Tkinter application that can encrypt and decrypt all types of files. When you encrypt a file, the program generates a key file with the same name, and you have to place the key file in the same directory where the encrypted file is located in order to decrypt the file.</p>
+		<img src="../assets/images/file-encrypter-preview.png">
 		<h2>What's in the Latest Update</h2>
 		<p>The latest version has the following bug fixes and improvements.</p>
 		<h3>Bug Fixes</h3>
 		<ol>
-		    <li>The application no longer calculates the response time for the first click.</li>
-		    <li>Response time is no longer calculated from the moment the restart button is clicked.</li>
+		    <li>The program now automatically identifies the key file and will not encrypt it if it's a key file.</li>
+		    <li>Previously, the program displayed "is selected" when we clicked the file explorer button but didn't select any files. Now, the program correctly shows "no file selected."</li>
+		    <li>The program used to show "encrypt" in the action button even though no file was selected. Now, the action button displays "-" if no files are selected or if the action can't be done.</li>
 		</ol>
 		<h3>Features and Improvements</h3>
 		<ol>
-		    <li>Added a feature to restart the game by clicking the spacebar while the game is running.</li>
-		    <li>The program now displays response time and average response time with only three significant figures, rather than the full float value.</li>
+		    <li>Added the feature to scale the UI size.</li>
+		    <li>Removed the label that showed the file path, as it felt complicated (I want this app to be simple).</li>
 		</ol>
 		<div class='downloads-section'>
 
 			<div class="item-div">
-				<p>Bundled Application</p>
-				<a href="https://faseeh-official.github.io/dot-dash-dist/v1.0/dot_dash.zip" download><button class="download-btn">Download</button></a>
+				<p>v2.0 for Windows (Bundled Application)</p>
+				<a href="https://faseeh-official.github.io/file-encrypter-dist/v2.0/file_encrypter.zip" download><button class="download-btn">Download</button></a>
 			</div>
 
 			<div class="item-div">
-				<p>Standalone EXE</p>
-				<a href="https://faseeh-official.github.io/dot-dash-dist/v1.0/dot_dash_onefile.zip" download><button class="download-btn">Download</button></a>
+				<p>v2.0 for Windows (Standalone EXE)</p>
+				<a href="https://faseeh-official.github.io/file-encrypter-dist/v2.0/file_encrypter_standalone.zip" download><button class="download-btn">Download</button></a>
+			</div>
+
+			<div class="item-div">
+				<p>v1.0 for Windows (Bundled Application)</p>
+				<a href="https://faseeh-official.github.io/file-encrypter-dist/v1.0/file_encrypter.zip" download><button class="download-btn">Download</button></a>
+			</div>
+
+			<div class="item-div">
+				<p>v1.0 for Windows (Standalone EXE)</p>
+				<a href="https://faseeh-official.github.io/file-encrypter-dist/v1.0/file_encrypter_standalone.zip" download><button class="download-btn">Download</button></a>
+			</div>
+
+			<div class="item-div">
+				<p>v1.0 for Linux (Debian)</p>
+				<a href="https://faseeh-official.github.io/file-encrypter-dist/v1.0/file_encrypter_deb.zip" download><button class="download-btn">Download</button></a>
 			</div>
 
         </div>

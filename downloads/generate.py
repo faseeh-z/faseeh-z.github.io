@@ -1,8 +1,8 @@
 import os
 import yaml
 
-sites_dir = "sites" # Name of the directory in which site source files are placed.
-export_sites_to = "downloads" # Name of the directory to place the exported sites.
+site_sources_dir = "site-sources" # Name of the directory in which site source files are placed.
+export_sites_to = "sites" # Name of the directory to place the exported sites.
 
 # To add tabs to a multi-line string
 def add_tabs(content, number_of_tabs_to_add):
@@ -20,8 +20,8 @@ for filename in os.listdir(export_sites_to):
         os.remove(file_path)
 
 print("Scanning 'sites' dir")
-for dir_name in os.listdir(sites_dir): # Loop through all sites folders.
-    dir_path = os.path.join(sites_dir, dir_name)
+for dir_name in os.listdir(site_sources_dir): # Loop through all sites folders.
+    dir_path = os.path.join(site_sources_dir, dir_name)
 
     print(f"Acquiring metadata for {dir_name}") # Acquiring metadata.
     with open(os.path.join(dir_path, "metadata.yaml"), "r") as rawdata:
@@ -38,7 +38,8 @@ for dir_name in os.listdir(sites_dir): # Loop through all sites folders.
 \t<meta charset="UTF-8">
 \t<meta name="viewport" content="width=device-width, initial-scale=1.0">
 \t<link rel="stylesheet" href="../default-assets/styles.css">
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+\t<link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji&display=swap" rel="stylesheet">
+\t<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 \t<title>{data["title"]}</title>
 </head>
 <body>

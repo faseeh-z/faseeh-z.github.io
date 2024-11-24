@@ -1,10 +1,3 @@
-@font-face {
-  font-family: 'Baloo Paaji';
-  src: url('../default-assets/logo-font.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-}
-
 body {
   display: flex;
   flex-direction: column;
@@ -13,12 +6,14 @@ body {
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
-  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-family: 'Open Sans', sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
   color: #695aa6;
-  font-family: 'Baloo Paaji';
+  font-family: 'Baloo Paaji', sans-serif;
+  font-weight: 400;
 }
 
 video {
@@ -58,8 +53,9 @@ img {
 }
 
 .site-logo {
-  font-family: 'Baloo Paaji';
+  font-family: 'Baloo Paaji', sans-serif;
   font-size: 34px;
+  font-weight: 400;
   color: white;
 }
 
