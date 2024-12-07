@@ -38,6 +38,7 @@ for dir_name in os.listdir(site_sources_dir): # Loop through all sites folders.
 \t<meta charset="UTF-8">
 \t<meta name="viewport" content="width=device-width, initial-scale=1.0">
 \t<link rel="stylesheet" href="../default-assets/styles.css">
+\t<link rel="icon" type="image/x-icon" href="../../assets/imgs/favicon.png">
 \t<link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji&display=swap" rel="stylesheet">
 \t<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 \t<title>{data["title"]}</title>
