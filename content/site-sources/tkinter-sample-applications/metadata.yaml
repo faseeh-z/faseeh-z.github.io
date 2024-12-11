@@ -1,5 +1,6 @@
 title: Tkinter Sample Applications # Title of the generated site.
 filename: tkinter-sample-applications # Name of the generated HTML file.
+type: 'download'
 
-download_links:
+links:
   - [Download Package, https://faseeh-z.github.io/tkinter-sample-applications/tkinter_sample_applications.zip]
