@@ -11139,11 +11139,12 @@ p {
   border: 1px solid #dee2e6;
   overflow: hidden;
   border-radius: 3px;
-  transition: transform 0.3s ease;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .service-card:hover {
-  transform: scale(1.05);
+  transform: scale(1.025);
+  box-shadow: 0 0px 16px rgba(0, 0, 0, 0.1);
 }
 
 .service-card .body {
