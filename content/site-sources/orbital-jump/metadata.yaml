@@ -1,0 +1,6 @@
+title: Download Orbital Jump - A simple yet challenging game centered around the mechanics of gravity # Title of the generated site.
+filename: orbital-jump # Name of the generated HTML file.
+type: 'download'
+
+links:
+  - [For Windows 64-bit, https://faseeh-z.github.io/orbital-jump/orbital-jump.zip]
