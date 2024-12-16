@@ -56,6 +56,11 @@ for dir_name in os.listdir(site_sources_dir): # Loop through all sites folders.
     <link rel="stylesheet" href="../default-assets/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <script 
+        async 
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2741277026989187"
+        crossorigin="anonymous">
+    </script>
     <title>{data["title"]}</title>\n"""
         )
 
@@ -139,3 +144,5 @@ for dir_name in os.listdir(site_sources_dir): # Loop through all sites folders.
 </html>
 """
         )
+
+input()
