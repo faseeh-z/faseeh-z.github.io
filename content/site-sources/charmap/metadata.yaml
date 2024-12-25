@@ -1,0 +1,6 @@
+title: Download CharMap - An alternative to Windows Character Map # Title of the generated site.
+filename: charmap # Name of the generated HTML file.
+type: 'download'
+
+links:
+  - [For Windows (64-bit), https://faseeh-z.github.io/charmap/faseehs-charmap.zip]
