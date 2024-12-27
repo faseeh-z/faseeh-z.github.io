@@ -56,11 +56,6 @@ for dir_name in os.listdir(site_sources_dir): # Loop through all sites folders.
     <link rel="stylesheet" href="../default-assets/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-    <script 
-        async 
-        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2741277026989187"
-        crossorigin="anonymous">
-    </script>
     <title>{data["title"]}</title>\n"""
         )
 
@@ -122,19 +117,19 @@ for dir_name in os.listdir(site_sources_dir): # Loop through all sites folders.
                     <h4>My Software</h4>
                     <ul>
                         <li><a href="https://faseeh-official.itch.io/apple-jump/">Apple Jump</a></li>
-                        <li><a href="https://faseeh-z.github.io/file-encrypter-dist/">File Encrypter</a></li>
-                        <li><a href="https://faseeh-z.github.io/dot-dash-dist/">Dot Dash</a></li>
-                        <li><a href="https://faseeh-z.github.io/tkinter-tutorial/">Tkinter Tutorial</a></li>
-                        <li><a href="https://github.com/faseeh-z/programming-solutions/">Programming Solutions</a></li>
+                        <li><a href="https://faseeh-official.github.io/file-encrypter-dist/">File Encrypter</a></li>
+                        <li><a href="https://faseeh-official.github.io/dot-dash-dist/">Dot Dash</a></li>
+                        <li><a href="https://faseeh-official.github.io/tkinter-tutorial/">Tkinter Tutorial</a></li>
+                        <li><a href="https://github.com/faseeh-official/programming-solutions/">Programming Solutions</a></li>
                     </ul>
                 </div>
                 <div class="link-box">
                     <h4>Support</h4>
                     <ul>
                         <li><a href="https://youtube.com/@coderapids?si=Pd3PXfRjw141buM_">YouTube</a></li>
-                        <li><a href="https://github.com/faseeh-z">GitHub</a></li>
+                        <li><a href="https://github.com/faseeh-official">GitHub</a></li>
                         <li><a href="#">Instagram</a></li>
-                        <li><a href="https://faseeh-z.github.io/tkinter-tutorial/">Feedback</a></li>
+                        <li><a href="https://faseeh-official.github.io/tkinter-tutorial/">Feedback</a></li>
                     </ul>
                 </div>
             </section>
@@ -145,4 +140,5 @@ for dir_name in os.listdir(site_sources_dir): # Loop through all sites folders.
 """
         )
 
-input()
+print("\nProcess completed.")
+input("Press any key to finish.")
