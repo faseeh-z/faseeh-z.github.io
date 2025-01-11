@@ -128,7 +128,7 @@ for dir_name in os.listdir(site_sources_dir): # Loop through all sites folders.
                 <div class="link-box">
                     <h4>Support</h4>
                     <ul>
-                        <li><a href="https://youtube.com/@coderapids?si=Pd3PXfRjw141buM_">YouTube</a></li>
+                        <li><a href="https://youtube.com">YouTube</a></li>
                         <li><a href="https://github.com/faseeh-official">GitHub</a></li>
                         <li><a href="#">Instagram</a></li>
                         <li><a href="https://faseeh-official.github.io/tkinter-tutorial/">Feedback</a></li>
