@@ -71,12 +71,14 @@ for dir_name in os.listdir(site_sources_dir): # Loop through all sites folders.
 </head>
 <body>
     <header class="sticky-header">
-        <h1 class="site-logo">Faseeh-Z</h1>
-        <a href="https://faseeh-z.github.io" _target=blank>
-            <button class="homepage-btn">
-                <img src="../default-assets/home.svg" alt="Homepage" class='home-icon' />
-            </button>
-        </a>
+        <div class="sticky-header-content">
+            <h1 class="site-logo">Faseeh-Z</h1>
+            <a href="https://faseeh-z.github.io" _target=blank>
+                <button class="homepage-btn">
+                    <img src="../default-assets/home.svg" alt="Homepage" class='home-icon' />
+                </button>
+            </a>
+        </div>
     </header>
     <div class="container">\n"""
         )
@@ -128,7 +130,7 @@ for dir_name in os.listdir(site_sources_dir): # Loop through all sites folders.
                 <div class="link-box">
                     <h4>Support</h4>
                     <ul>
-                        <li><a href="https://youtube.com">YouTube</a></li>
+                        <li><a href="https://youtube.com/@coderapids?si=Pd3PXfRjw141buM_">YouTube</a></li>
                         <li><a href="https://github.com/faseeh-official">GitHub</a></li>
                         <li><a href="#">Instagram</a></li>
                         <li><a href="https://faseeh-official.github.io/tkinter-tutorial/">Feedback</a></li>
